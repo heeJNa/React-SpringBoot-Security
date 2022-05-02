@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.web.boot_react.mapper.SeoulMapper">
+    <sql id="seoulFind">
+        <choose>
+            <when test="type==1"> SEOUL_LOCATION </when>
+            <when test="type==2"> SEOUL_NATURE </when>
+            <when test="type==3"> SEOUL_HOTEL </when>
+        </choose>
+        <trim suffixOverrides="WHERE">
+            WHERE
+            <choose>
+                <when test="keyword.length>0 and type!=3">
+                    title LIKE CONCAT('%',#{keyword},'%')
+                    OR msg LIKE CONCAT('%',#{keyword},'%')
+                </when>
+                <when test="keyword.length>0">
+                    title LIKE CONCAT('%',#{keyword},'%')
+                </when>
+            </choose>
+            <if test="keyword.length>0">
+                AND
+            </if>
+            <if test="region.length>0 and region!='전체'.toString()">
+                address LIKE CONCAT('%',#{region},'%')
+            </if>
+        </trim>
+    </sql>
+    <select id="seoulLocationListData" resultType="SeoulDTO" parameterType="hashmap">
+        SELECT * FROM
+            <include refid="seoulFind"/>
+        ORDER BY no  limit #{start},12
+    </select>
+    <select id="seoulLocationTotalPage" resultType="int" parameterType="hashmap">
+        SELECT CEIL(COUNT(*)/12.0) FROM
+            <include refid="seoulFind"/>
+    </select>
+    <select id="seoulDetailData" resultType="SeoulDTO" parameterType="hashmap">
+        SELECT * FROM
+        <choose>
+            <when test="type==1"> SEOUL_LOCATION </when>
+            <when test="type==2"> SEOUL_NATURE </when>
+            <when test="type==3"> SEOUL_HOTEL </when>
+        </choose>
+        WHERE no=#{no}
+    </select>
+</mapper>
