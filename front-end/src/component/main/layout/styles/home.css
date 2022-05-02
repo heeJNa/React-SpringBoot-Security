@@ -1,0 +1,48 @@
+.container-fluid .seoul_tour_warp{
+    margin: 40px 0;
+    overflow: hidden;
+}
+.container-fluid .home-wrap{
+    position:relative;
+}
+.wrapper div.seoul_tour_title{
+    width: 1200px;
+    margin: 0px auto;
+}
+.wrapper div.seoul_tour_title>h2{
+    font-family: -apple-system;
+    color: #3B5998;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+.wrapper div#seoul_group{
+    text-align: center;
+}
+.main-searchbar{
+    position: absolute;
+    left: 50%;
+    top: 370px;
+    transform: translate(-50%, -50%);
+}
+.main-searchbar select{
+    float: left;
+    width: 110px;
+    height: 50px;
+    font-size: 15px;
+    box-shadow: 0px 1px 0px 1px #dedede;
+}
+.main-searchbar input{
+    width: 500px;
+    height: 50px;
+    box-shadow: 1px 1px 1px 1px #dedede;
+}
+.search-btn{
+    position: absolute;
+    top: 5px;
+    right: 3px;
+    height: 40px;
+    background-color: white;
+    border: none;
+}
+
+

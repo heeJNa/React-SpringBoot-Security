@@ -1,0 +1,139 @@
+@CHARSET "EUC-KR";
+#a{
+   position: relative;
+   height: 320px;
+   left:0px;
+}
+#seoul{
+   position: absolute;
+}
+#seoul_1{
+   position: absolute;
+   left: 116px;
+   top:128px;
+}
+#gu1{
+   position: absolute;
+   left: 38px;
+   top:98px;
+}
+#gu2{
+   position: absolute;
+   left:89px;
+   top:156px;
+}
+#gu3{
+   position: absolute;
+   left:76px;
+   top:194px;
+}
+#gu4{
+   position: absolute;
+   left:129px;
+   top:114px;
+}
+#gu5{
+   position: absolute;
+   left:147px;
+   top:154px;
+}
+#gu6{
+   position: absolute;
+   left:139px;
+   top:230px;
+}
+#gu7{
+   position: absolute;
+   left:157px;
+   top:44px;
+}
+#gu8{
+   position: absolute;
+   left:175px;
+   top:96px;
+}
+#gu9{
+   position: absolute;
+   left:171px;
+   top:195px;
+}
+#gu10{
+   position: absolute;
+   left:167px;
+   top:221px;
+}
+#gu11{
+   position: absolute;
+   left:222px;
+   top:71px;
+}
+#gu12{
+   position: absolute;
+   left:233px;
+   top:135px;
+}
+#gu13{
+   position: absolute;
+   left:223px;
+   top:152px;
+}
+#gu14{
+   position: absolute;
+   left:253px;
+   top:188px;
+}
+#gu15{
+   position: absolute;
+   left:253px;
+   top:23px;
+}
+#gu16{
+   position: absolute;
+   left:247px;
+   top:67px;
+}
+#gu17{
+   position: absolute;
+   left:277px;
+   top:6px;
+}
+#gu18{
+   position: absolute;
+   left:293px;
+   top:97px;
+}
+#gu19{
+   position: absolute;
+   left:279px;
+   top:132px;
+}
+#gu20{
+   position: absolute;
+   left:285px;
+   top:175px;
+}
+#gu21{
+   position: absolute;
+   left:311px;
+   top:11px;
+}
+#gu22{
+   position: absolute;
+   left:339px;
+   top:83px;
+}
+#gu23{
+   position: absolute;
+   left:331px;
+   top:133px;
+}
+#gu24{
+   position: absolute;
+   left:341px;
+   top:168px;
+}
+#gu25{
+   position: absolute;
+   left:386px;
+   top:126px;
+}

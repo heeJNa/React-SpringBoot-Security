@@ -1,0 +1,156 @@
+.menu-wrap{
+    width: 1080px;
+    margin: 30px auto;
+    margin-top: 140px;
+}
+.menu-wrap .menu_title{
+    display: inline-block;
+    width: 220px;
+    font-size: 30px;
+}
+.thumbnail{
+    margin-bottom: 20px;
+}
+.thumbnail img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border : #34526F 2px solid;
+    width: 340px;
+    height: 240px;
+}
+.thumbnail a{
+    text-decoration: none;
+    color: black;
+}
+.thumbnail .caption{
+    width: 340px;
+    font-size: 25px;
+    color: #666;
+    border: #34526F 2px solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: none;
+    overflow: hidden;
+}
+.caption .menuInfoTable{
+    border-bottom: none;
+    margin-bottom: 0px;
+
+}
+.caption .menuInfoTable .food_house_name>a:hover{
+    color: black;
+}
+.caption .menuInfoTable tr th{
+    background-color: white;
+    color: #bcbcbc;
+    font-size: 20px;
+    line-height: 40px;
+}
+.caption .menuInfoTable tr:last-child th{
+    border-bottom-left-radius: 10px;
+}
+.caption .menuInfoTable tr:last-child td{
+    border-bottom-right-radius: 10px;
+    font-size: 20px;
+}
+.caption .menuInfoTable tr,td{
+    background-color: white;
+}
+.caption .menuInfoTable tr:nth-child(2) td{
+    font-size: 15px;
+    line-height: 20px;
+}
+.tag-wrap{
+    margin-bottom: 20px;
+}
+.tag-wrap .tag-food{
+    margin: 15px 3px 0 3px;
+    font-size: 15px;
+    padding: 0 20px;
+    display: inline-block;
+    color: #6a6a6a;
+    border: 1px solid #cbcbcb;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.tag-wrap .tag-active{
+    background-color: #A7DFC4;
+    color: black;
+    font-weight: 600;
+}
+.pagination{
+    margin-top: 10px;
+    justify-content: center;
+}
+.pagination span{
+    display: block;
+    padding: 8px 11px;
+    border: 1px solid;
+    font-weight: normal;
+    border-color: #D7D7D7;
+}
+.pagination span:hover{
+    cursor: pointer;
+}
+.menu-wrap .countInfo{
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: auto;
+}
+.menu-wrap .countInfo em{
+    font-size: 20px;
+    color: black;
+    line-height: 37px;
+}
+.menutop-wrap{
+    position: relative;
+    height: 674px;
+}
+.menutop-wrap .menu-backimg{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://korean.visitseoul.net/comm/getImage?srvcId=CTGRY&parentSn=13&fileTy=IMG&fileNo=5');
+}
+.menutop-wrap .menu-nav{
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto 0 auto;
+    padding: 20px 0px 20px 55px;
+    font-size: 16px;
+    color: #666;
+    box-sizing: border-box;
+}
+.menutop-wrap .menu-textwrap{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+}
+.menutop-wrap .menu-textwrap .menu-largeText{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menutop-wrap .menu-textwrap .menu-smallText{
+    padding: 20px;
+    background-color: rgba(0,0,0,.6);
+    overflow: hidden;
+    margin-top: 30px;
+}
+.menutop-wrap .menu-textwrap .menu-largeText .largeText-inner{
+    font-size: 58px;
+    color: #fff;
+    font-weight: 700;
+}
+.menutop-wrap .menu-textwrap .menu-smallText .smallText-inner{
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}

@@ -1,0 +1,58 @@
+
+.carousel-title-wrap{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.main-carousel-title{
+    margin: 20px 0px 20px 0px;
+    font-family: -apple-system;
+    color: #EC9700;
+
+}
+.carousel-warp{
+    margin:0px auto;
+    width: 1200px;
+    height: 500px;
+}
+.carousel-warp .row>div{
+    padding: 10px 10px;
+    position: relative;
+}
+.carousel-warp .row .carousel-img{
+    width: 370px;
+    height: 230px;
+}
+.carousel-warp .row>div div.carousel-name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.carousel-warp .row>div div.carousel-name>span{
+    font-size: 26px;
+    font-weight: 600;
+}
+.carousel-warp .row>div div.carousel-name>p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.carousel-item-wrap{
+    position: relative;
+    margin: 50px 0;
+}
+.carousel-item-wrap:first-child{
+    margin : 0 0 0 0 ;
+}
+.carousel-item-wrap:not(:last-child)::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -25px;
+    height: 1px;
+    width: 100%;
+    background: #dedede;
+}

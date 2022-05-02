@@ -1,0 +1,9 @@
+.form-label,.form-check-label{
+    color: black;
+}
+.openModal .login-btn{
+    float: right;
+    display: block;
+    padding-top: 32px;
+
+}
